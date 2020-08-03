@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.ul-header{
+    
+    list-style: none;
+}
+body{
+ background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);;
+}

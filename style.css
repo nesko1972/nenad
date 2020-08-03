@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height:auto;
+ 
+}
+.header{
+display:flex;
+justify-content: space-around;
+align-items: center;
+height:10rem;
+width:90%;
+border: 1px solid black;
+background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,201,196,1) 54%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,201,196,1) 54%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,201,196,1) 54%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+.ul-header{
+   
+    list-style: none;
+   
+}
+.article-main{
+    display: flex;
+    justify-content: space-between;
+ 
+    width:90%;
+    height:38rem;
+    border: 1px solid black;
+}
+.aside-left{
+ background: black;
+    width:20%;
+    height:38rem;
+    border: 1px solid black;
+}
+.main{
+    display:flex;
+    flex-flow: row-wrap;
+    justify-content: center;  
+    align-items: center;
+    width:60%;
+    height:38rem;
+    border: 1px solid black;
+    background-color: #ff9933;
+    
+}
+.h4{
+   
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+}
+@keyframes fade{
+    0% {opacity:1;}
+    50% {opacity:0.5;}
+    100% {opacity:0;}
+}
+.aside-right{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width:20%;
+    height:38rem;
+    border: 1px solid black;
+    background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(154,116,201,1) 58%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(154,116,201,1) 58%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(154,116,201,1) 58%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+ 
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:4rem;
+    width:90%;
+    border: 1px solid black;
+  
+}
+.btn-primary {
+    animation-name: right;
+ animation-duration: 2s;
+ animation-iteration-count:infinite;
+   animation-direction: alternate;
+   position: relative;
+}
+@keyframes right {
+    0%   {transform: translateY(0%);transform: scale(1.1,1.1);}
+  25%  {transform: translateY(25%);transform: scale(1.5);}
+  50%  {transform: translateY(50%);transform: scale(2)}
+  75%  {transform: translateY(75%);}
+  100% {transform: translateY(100%);}
+  50%  {transform: translateY(50%);}
+  60%  {transform: translateY(60%);}
+  70%  {transform: translateY(70%);}
+  80% {transform: translateY(80%);}
+  90%  {transform: translateY(90%);}
+  100% {transform: translateY(100%);}
+ 
+  0% {transform: translateY(0%);}
+  10%  {transform: translateY(10%);}
+  20% {transform: translateY(20%);}
+  30%  {transform: translateY(30%);}
+  40%  {transform: translateY(40%);}
+  50%  {transform: translateY(50%);}
+  60% {transform: translateY(60%);}
+  70%  {transform: translateY(70%);}
+  80%  {transform: translateY(80%);}
+  90%  {transform: translateY(90%);}
+  100%  {transform: translateY(100%);}
+}
+.aside-left-kocka{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+width:18.7rem;
+height:38rem;
+border: 1px solid black;
+background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,176,157,1) 58%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,176,157,1) 58%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,176,157,1) 58%, rgba(0,212,255,1) 100%);
+/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,181,162,1) 60%, rgba(0,212,255,1) 100%);*/
+animation-name: kocka;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+/*animation-direction: alternate;*/
+}
+@keyframes kocka{
+    0%   {transform:rotate3d(0,2,0,360deg)}
+}
+.footer{
+    background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,153,186,1) 58%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,153,186,1) 58%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,153,186,1) 58%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
